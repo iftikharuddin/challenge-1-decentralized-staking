@@ -9,7 +9,7 @@ const Stakings: NextPage = () => {
   const { data: stakeEvents, isLoading } = useScaffoldEventHistory({
     contractName: "Staker",
     eventName: "Stake",
-    fromBlock: 0n,
+    fromBlock: 4431317n,
   });
 
   if (isLoading)
